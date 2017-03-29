@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_view"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/darker_gray"
+    >
+    <TextView
+        android:id="@+id/list_view_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:hint="hint"
+        android:textSize="26sp"
+        android:textColor="@color/silver"
+        />
+    <View
+        android:id="@+id/line1"
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="100dp"
+        android:background="@color/silver"/>
+
+    <TextView
+        android:id="@+id/list_view_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:hint="@string/app_name"
+        android:textSize="22sp"
+        android:textColor="@color/gold"/>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="100dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/silver"/>
+
+    <TextView
+        android:id="@+id/list_view_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:hint="hint"
+        android:textSize="26sp"
+        android:textColor="@color/silver"
+        />
+
+</RelativeLayout>

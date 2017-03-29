@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KennyProject</string>
+    <string name="games"><u>Games</u></string>
+    <string name="utility"><u>Utility</u></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tic_tac_toe">Tic Tac Toe</string>
+    <string name="ttt_rules">The object of Tic Tac Toe is to get three in a row. You play on a three by three game board. The first player is known as X and the second is O. Players alternate placing Xs and Os on the game board until either oppent has three in a row or all nine squares are filled.</string>
+    <string name="matching_game">Matching Game</string>
+    <string name="mg_rules">Find matching pairs. If pair does not match, they reset. Double clicking off cards and header undoes one card.</string>
+    <string name="mg_credits">Made by Kenny Nguyen\nEnjoy</string>
+</resources>
